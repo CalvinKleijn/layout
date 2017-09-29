@@ -1,0 +1,317 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    width: 110%;
+    background-color: red;
+    padding: 20px 0px;
+    margin-left: -10px;
+    margin-top: 0px;
+}
+
+.head {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 10px;
+    top: -20px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    width: 110%;
+    background-color: #2E2E2E;
+    padding: 20px 0px;
+    margin-left: -10px;
+}
+
+.foot {
+    color: white;
+    position: relative;
+    left: 970px;
+    top: -20px;
+}
+
+#advertentie1 {
+    position: absolute;
+    left: 1150px;
+    top: 130px;
+}
+
+#l1 {
+    position: absolute;
+    color: red;
+    top: 450px;
+    left: 20px;
+}
+
+#l2 {
+    position: absolute;
+    color: red;
+    top: 450px;
+    left: 320px;
+}
+
+#l3 {
+    position: absolute;
+    color: red;
+    top: 450px;
+    left: 610px;
+}
+
+#l4 {
+    position: absolute;
+    color: red;
+    top: 450px;
+    left: 898px;
+}
+
+#mario {
+    position: relative;
+    margin: 25px;
+    border: 1px solid red;
+    left: -17px;
+    top: 250px;
+}
+
+#ph1 {
+    position: absolute;
+    font-size: 13px;
+    width: 200px;
+    top: 340px;
+    left: 18px;
+}
+
+#bf1 {
+    position: relative;
+    margin: 25px;
+    border: 1px solid red;
+    left: 30px;
+    top: 250px;
+}
+
+#ph2 {
+    position: absolute;
+    font-size: 13px;
+    width: 200px;
+    top: 340px;
+    left: 320px;
+}
+
+#pokemon {
+    position: relative;
+    margin: 25px;
+    border: 1px solid red;
+    left: 60px;
+    top: 250px;
+}
+
+#ph3 {
+    position: absolute;
+    font-size: 13px;
+    width: 200px;
+    top: 340px;
+    left: 608px;
+}
+
+#cars {
+    position: relative;
+    margin: 25px;
+    border: 1px solid red;
+    left: 90px;
+    top: 250px;
+}
+
+#ph4 {
+    position: absolute;
+    font-size: 13px;
+    width: 200px;
+    top: 340px;
+    left: 896px;
+}
+
+#marioh1 {
+    position: relative;
+    font-size: 18px;
+}
+
+#bf1h2 {
+    position: relative;
+    font-size: 18px;
+}
+
+#pokemonh3 {
+    position: relative;
+    font-size: 18px;
+    top: 95px;
+    left: -12px;
+}
+
+#carsh4 {
+    position: relative;
+    font-size: 18px;
+    top: 288px;
+    left: -25px;
+}
+
+#marioh1 {
+    font-size: 18px;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#bf1h2 {
+    font-size: 18px;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: -93px;
+    margin-left: 300px;
+}
+
+#pokemonh3 {
+    font-size: 18px;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: -193px;
+    margin-left: 600px;
+}
+
+#carsh4 {
+    font-size: 18px;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: -293px;
+    margin-left: 900px;
+}
+
+#titel {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.tekstm {
+    font-size: 13px;
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+}
+
+#mario1 {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+
+#titel2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#bf11 {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+
+#titel3 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#pokemon1 {
+    position: relative;
+    padding-left: 10px;
+    top: -20px;
+    left: 0px;
+
+}
+
+#titel4 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#cars1 {
+    position: relative;
+    padding-left: 10px;
+    top: -20px;
+    left: 0px;
+}
+
+#titel5 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#fifa1 {
+    position: relative;
+    padding-left: 10px;
+    top: -20px;
+    left: 0px;
+}
